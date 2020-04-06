@@ -77,7 +77,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:3001
 msgid "Not installing to unclean target"
-msgstr "Nema instalacije na nečisto odredište"
+msgstr "Nemoguća instalacija na nečisto odredište"
 
 #. Type: error
 #. Description
