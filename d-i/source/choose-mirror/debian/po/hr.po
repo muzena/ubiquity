@@ -22,29 +22,30 @@ msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: choose-mirror@packages.debian.org\n"
 "POT-Creation-Date: 2010-10-26 22:47+0000\n"
-"PO-Revision-Date: 2013-04-27 02:15+0200\n"
-"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
+"PO-Revision-Date: 2020-04-06 19:56+0200\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 3.36.0\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:5001
 msgid "Checking the Ubuntu archive mirror"
-msgstr "Provjeravam Ubuntu zrcalnu arhivu"
+msgstr "Provjeravanje Ubuntu zrcalnog poslužitelja"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:6001
 msgid "Downloading Release files..."
-msgstr "Skidam 'Release' datoteke..."
+msgstr "Preuzimanje datoteka izdanja..."
 
 #. Type: boolean
 #. Description
@@ -63,17 +64,17 @@ msgid ""
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Izabrana (predodređena) inačica Ubuntu (${RELEASE}) nije dostupna na "
-"izabranom zrcalnom poslužitelju. Moguće je nastaviti i izabrati drugu "
-"inačicu za vašu instalaciju, ali u pravilu biste se trebali vratiti i "
-"izabrati drugi poslužitelj koji podržava ispravnu inačicu."
+"Odabrana (zadana) Ubuntu (${RELEASE}) inačica nije dostupna sa odabranog "
+"zrcalnog poslužitelja. Moguće je nastaviti i odabrati drugu inačicu za vašu "
+"instalaciju, ali u pravilu ćete se vratiti i odabrati drugi poslužitelj koji "
+"podržava ispravnu inačicu."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "Neispravan zrcalni poslužitelj Ubuntu arhive"
+msgstr "Neispravna zrcalna arhiva"
 
 #. Type: error
 #. Description
@@ -83,7 +84,7 @@ msgid ""
 "An error has been detected while trying to use the specified Ubuntu archive "
 "mirror."
 msgstr ""
-"Otkrivena je greška pri pokušaju korištenja zadanog zrcalnog poslužitelja "
+"Pojavila se greška pri pokušaju korištenja zadanog zrcalnog poslužitelja "
 "Ubuntu arhive."
 
 #. Type: error
@@ -96,11 +97,10 @@ msgid ""
 "broken (for example because an invalid Release file was found); mirror does "
 "not support the correct Ubuntu version."
 msgstr ""
-"Mogući razlozi ove greške su: izbor neispravnog zrcalnog poslužitelja, "
-"poslužitelj nije dostupan (moguće zbog nepouzdane mrežne veze), zrcalni "
-"poslužitelj nije ispravan (npr. jer je na njemu pronađena neispravna "
-"\"Release\" datoteka), zrcalni poslužitelj ne podržava ispravnu inačicu "
-"Ubuntu."
+"Mogući razlozi za ovu grešku su: odabir neispravnog zrcalnog poslužitelja; "
+"poslužitelj nije dostupan (moguće zbog nepouzdanog mrežnog povezivanja); "
+"zrcalni poslužitelj nije ispravan (npr. jer je na njemu pronađena neispravna "
+"datoteka izdanja); zrcalni poslužitelj ne podržava ispravnu inačicu Ubuntua."
 
 #. Type: error
 #. Description
@@ -110,15 +110,15 @@ msgid ""
 "Additional details may be available in /var/log/syslog or on virtual console "
 "4."
 msgstr ""
-"Dodatne pojedinosti mogu biti dostupni u /var/log/syslog ili na virtualnoj "
-"konzoli br. 4."
+"Dodatne pojedinosti mogu biti dostupne u /var/log/syslog ili na virtualnoj "
+"konzoli F4."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Please check the specified mirror or try a different one."
-msgstr "Molim provjerite izabrani poslužitelj ili probajte neki drugi."
+msgstr "Provjerite odabrani poslužitelj ili probajte neki drugi."
 
 #. Type: error
 #. Description
@@ -135,8 +135,8 @@ msgid ""
 "The specified Ubuntu archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Naznačeni zrcalni poslužitelj Ubuntu arhive ne podržava vašu arhitekturu. "
-"Molim pokušajte s drugim."
+"Odabrani zrcalni poslužitelj Ubuntu arhive ne podržava vašu arhitekturu. "
+"Pokušajte s drugim poslužiteljem."
 
 #. Type: text
 #. Description
@@ -172,14 +172,14 @@ msgstr "nestabilna"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
 msgid "Choose a mirror of the Ubuntu archive"
-msgstr "Izaberi zrcalni poslužitelj Ubuntu arhive"
+msgstr "Odabir zrcalne Ubuntu arhive"
 
 #. Type: select
 #. Choices
 #: ../choose-mirror-bin.templates.http-in:2001
 #: ../choose-mirror-bin.templates.ftp.sel-in:2001
 msgid "enter information manually"
-msgstr "ručno unesite obavijesti"
+msgstr "unesite informaciju ručno"
 
 #. Type: select
 #. Default
@@ -211,7 +211,7 @@ msgstr "HR"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid "Ubuntu archive mirror country:"
-msgstr "Država zrcalne Ubuntu arhive:"
+msgstr "Država zrcalne arhive:"
 
 #. Type: select
 #. Description
@@ -226,8 +226,8 @@ msgid ""
 "the network -- be aware that nearby countries, or even your own, may not be "
 "the best choice."
 msgstr ""
-"Cilj je pronaći zrcalni poslužitelj Ubuntu arhive koji je blizu vas na "
-"mreži, ali znajte da susjedne države, čak i vaša vlastita, nisu nužno "
+"Namjera je pronaći zrcalni poslužitelj Ubuntu arhive koji je najbliži vama "
+"na mreži, ali znajte da susjedne države, pa čak i vaša vlastita, nisu nužno "
 "najbolji izbor."
 
 #. Type: select
@@ -239,7 +239,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Ubuntu archive mirror:"
-msgstr "Zrcalni poslužitelj Ubuntu arhive:"
+msgstr "Zrcalni poslužitelj arhive:"
 
 #. Type: select
 #. Description
@@ -254,8 +254,8 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Molim izaberite zrcalni poslužitelj Ubuntu arhive. Ako ne znate s kojim "
-"imate najbolju Internet vezu, trebali biste rabiti neki u svojoj državi ili "
+"Odaberite zrcalni poslužitelj Ubuntu arhive. Ako ne znate s kojim imate "
+"najbrži pristup Internetu, trebali biste koristiti neki u svojoj državi ili "
 "regiji."
 
 #. Type: select
@@ -267,7 +267,7 @@ msgstr ""
 #: ../choose-mirror-bin.templates.http-in:3001
 #: ../choose-mirror-bin.templates.ftp.sel-in:3001
 msgid "Usually, <your country code>.archive.ubuntu.com is a good choice."
-msgstr "Obično je '<oznaka vaše zemlje>.archive.ubuntu.com' dobar izbor."
+msgstr "Uobičajeno je '<oznaka vaše zemlje>.archive.ubuntu.com' dobar izbor."
 
 #. Type: string
 #. Description
@@ -278,7 +278,7 @@ msgstr "Obično je '<oznaka vaše zemlje>.archive.ubuntu.com' dobar izbor."
 #: ../choose-mirror-bin.templates.http-in:4001
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid "Ubuntu archive mirror hostname:"
-msgstr "Ime zrcalnog poslužitelja Ubuntu arhive:"
+msgstr "Naziv zrcalnog poslužitelja Ubuntu arhive:"
 
 #. Type: string
 #. Description
@@ -290,7 +290,7 @@ msgstr "Ime zrcalnog poslužitelja Ubuntu arhive:"
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
 "Please enter the hostname of the mirror from which Ubuntu will be downloaded."
-msgstr "Molim unesite ime zrcalnog poslužitelja s kojeg ćete skinuti Ubuntu."
+msgstr "Unesite naziv zrcalnog poslužitelja s kojeg ćete preuzeti Ubuntu."
 
 #. Type: string
 #. Description
@@ -304,8 +304,8 @@ msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
 msgstr ""
-"Alternativni port se može postaviti koristeći standardni oblik [hostname]:"
-"[port]."
+"Alternativni ulaz se može postaviti koristeći standardni format [naziv-"
+"poslužitelja]:[ulaz]."
 
 #. Type: string
 #. Description
@@ -323,14 +323,14 @@ msgstr "Direktorij zrcalne Ubuntu arhive:"
 msgid ""
 "Please enter the directory in which the mirror of the Ubuntu archive is "
 "located."
-msgstr "Molim unesite direktorij u kojemu se nalazi zrcalna Ubuntu arhiva."
+msgstr "Unesite direktorij u kojemu se nalazi zrcalna Ubuntu arhiva."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "HTTP proxy postavke (prazno ako nema):"
+msgstr "HTTP proxy podaci (prazno ako su nedostupni):"
 
 #. Type: string
 #. Description
@@ -340,8 +340,8 @@ msgid ""
 "If you need to use a HTTP proxy to access the outside world, enter the proxy "
 "information here. Otherwise, leave this blank."
 msgstr ""
-"Ako morate koristiti HTTP proxy da dosegnete vanjski svijet, molim unesite "
-"informacije o tom proxyu. Ako ne, ostavite prazno."
+"Ako morate koristiti HTTP proxy za pristup vanjskom svijetu, unesite proxy "
+"podatke ovdje. U suprotnome, ostavite prazno."
 
 #. Type: string
 #. Description
@@ -355,15 +355,15 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Proxy postavke trebaju biti u uobičajenom obliku: \"http://[[user][:pass]@]"
-"host[:port]/\"."
+"Proxy postavke trebaju biti u standardnome obliku: \"http://[[korisnik][:"
+"lozinka]@]poslužitelj[:ulaz]/\"."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates.ftp.base-in:4001
 msgid "FTP proxy information (blank for none):"
-msgstr "FTP proxy postavke (prazno ako nema):"
+msgstr "FTP proxy podaci (prazno ako su nedostupni):"
 
 #. Type: string
 #. Description
@@ -373,8 +373,8 @@ msgid ""
 "If you need to use a FTP proxy to access the outside world, enter the proxy "
 "information here. Otherwise, leave this blank."
 msgstr ""
-"Ako morate koristiti FTP proxy da dosegnete vanjski svijet, molim unesite "
-"informacije o tom proxyu. Ako ne, ostavite prazno."
+"Ako morate koristiti FTP proxy za pristup vanjskom svijetu, unesite proxy "
+"podatke ovdje. U suprotnome, ostavite prazno."
 
 #. Type: select
 #. Default
@@ -402,7 +402,7 @@ msgstr "HR"
 #. :sl2:
 #: ../choose-mirror-bin.templates.both-in:2001
 msgid "Protocol for file downloads:"
-msgstr "Protokol za skidanje datoteka:"
+msgstr "Protokol za preuzimanje datoteka:"
 
 #. Type: select
 #. Description
@@ -412,5 +412,5 @@ msgid ""
 "Please select the protocol to be used for downloading files. If unsure, "
 "select \"http\"; it is less prone to problems involving firewalls."
 msgstr ""
-"Molim izaberite mrežni protokol za skidanje datoteka. Ako niste sigurni, "
-"izaberite \"http\", manje je sklon problemima s vatrozidima."
+"Odaberite mrežni protokol za preuzimanje datoteka. Ako niste sigurni, "
+"odaberite \"http\"; manje je sklon problemima povezanim s vatrozidima."
