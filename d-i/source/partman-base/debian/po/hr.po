@@ -132,7 +132,7 @@ msgstr "Želite li nastaviti s instalacijom?"
 msgid ""
 "No partition table changes and no creation of file systems have been planned."
 msgstr ""
-"Nema planiranih promjena particijskih tablica, niti stvaranje datotečnih "
+"Nema planiranih promjena particijskih tablica, niti stvaranja datotečnih "
 "sustava."
 
 #. Type: boolean
