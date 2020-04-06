@@ -453,4 +453,4 @@ msgstr "Instalacija GRUB učitača pokretnja na čvrsti disk"
 #. :sl2:
 #: ../grub-installer.templates:25001
 msgid "Reinstall GRUB boot loader"
-msgstr "Ponovo instaliraj GRUB učitača pokretanja"
+msgstr "Ponovno instaliraj GRUB učitača pokretanja"
