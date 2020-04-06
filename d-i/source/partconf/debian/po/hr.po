@@ -16,28 +16,30 @@
 #   Vladimir Vuksan <vuksan@veus.hr>, 2000.
 #   Vlatko Kosturjak, 2001
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013.
+# gogo <trebelnik2@gmail.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:33+0000\n"
-"PO-Revision-Date: 2013-04-17 18:08+0200\n"
-"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
-"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"PO-Revision-Date: 2020-04-06 21:47+0200\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: Croatian <Hrvatski>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 3.36.0\n"
 
 #. Type: error
 #. Description
 #. :sl5:
 #: ../partconf.templates:1001
 msgid "No partitions found"
-msgstr "Nema particija"
+msgstr "Nema pronađenih particija"
 
 #. Type: error
 #. Description
@@ -47,15 +49,15 @@ msgid ""
 "No partitions were found in your system. You may need to partition your hard "
 "drives or load additional kernel modules."
 msgstr ""
-"Nisu pronađene particije na vašem sustavu. Možda trebate particionirati svoj "
-"tvrdi disk, ili učitati dodatne module za jezgru."
+"Nema pronađenih particija na vašem sustavu. Možda trebate particionirati "
+"svoj čvrsti disk, ili učitati dodatne module kernela."
 
 #. Type: error
 #. Description
 #. :sl5:
 #: ../partconf.templates:2001
 msgid "No file systems found"
-msgstr "Nema datotečnih sustava"
+msgstr "Nema pronađenih datotečnih sustava"
 
 #. Type: error
 #. Description
@@ -65,8 +67,8 @@ msgid ""
 "No usable file systems were found. You may need to load additional kernel "
 "modules."
 msgstr ""
-"Nema uporabljivih datotečnih sustava. Možda trebate učitati dodatne module "
-"za jezgru."
+"Nema upotrebljivih datotečnih sustava. Možda trebate učitati dodatne module "
+"kernela."
 
 #. Type: select
 #. Choices
@@ -86,7 +88,7 @@ msgstr "Prekini"
 #. Description
 #: ../partconf.templates:3002
 msgid "Select a partition"
-msgstr "Izaberite particiju"
+msgstr "Odaberi particiju"
 
 #. Type: select
 #. Description
@@ -96,9 +98,9 @@ msgid ""
 "partition to configure. No actual changes will be made until you select "
 "\"Finish\". If you select \"Abort\", no changes will be made."
 msgstr ""
-"Ovo su particije pronađene na vašem sustavu. Molim izaberite particiju za "
-"podešavanje. Promjene se neće spremati dok ne izaberete \"Završi\", a ako "
-"izaberete \"Prekini\", poništit ćete sve promjene."
+"Ovo su particije pronađene na vašem sustavu. Odaberite particiju za "
+"podešavanje. Dok ne odaberete \"Završi\" neće biti promjena, a ako odaberete "
+"\"Prekini\" neće biti nikakvih promjena."
 
 #. Type: select
 #. Description
@@ -107,8 +109,8 @@ msgid ""
 "The information shown is, in order: device name, size, file system, and "
 "mount point."
 msgstr ""
-"Prikazani podaci su redom: ime uređaja, veličina, datotečni sustav i točka "
-"montiranja."
+"Prikazane su informacije ovim redoslijedom: naziv uređaja, veličina, "
+"datotečni sustav i točka montiranja."
 
 #. Type: select
 #. Choices
@@ -118,7 +120,7 @@ msgstr ""
 #. in single-byte languages)
 #: ../partconf.templates:4001
 msgid "Leave the file system intact"
-msgstr "Ne diraj datotečni sustav"
+msgstr "Ostavi datotečni sustav netaknutim"
 
 #. Type: select
 #. Choices
@@ -135,7 +137,7 @@ msgstr "Ne diraj datotečni sustav"
 #. in single-byte languages)
 #: ../partconf.templates:4001 ../partconf.templates:5001
 msgid "Create swap space"
-msgstr "Načini swap prostor"
+msgstr "Stvori swap prostor"
 
 #. Type: select
 #. Description
@@ -145,7 +147,7 @@ msgstr "Načini swap prostor"
 #. :sl5:
 #: ../partconf.templates:4002 ../partconf.templates:5002
 msgid "Action on ${PARTITION}:"
-msgstr "Uradi na ${PARTITION}:"
+msgstr "Radnja na ${PARTITION}:"
 
 #. Type: select
 #. Description
@@ -156,8 +158,8 @@ msgid ""
 "choose to leave this file system intact, create a new file system, or create "
 "swap space."
 msgstr ""
-"Čini se da ova particija već ima datotečni sustav (${FSTYPE}). Možete "
-"odrediti da ostane netaknut, načiniti novi ili načniti swap prostor."
+"Izgleda kako ova particija već ima datotečni sustav (${FSTYPE}). Možete "
+"odabrati da ostane netaknut, stvoriti novi ili stvoriti swap prostor."
 
 #. Type: select
 #. Description
@@ -167,8 +169,8 @@ msgid ""
 "This partition does not seem to have a file system. You can create a file "
 "system or swap space on it."
 msgstr ""
-"Čini se da ova particija nema datotečni sustav. Možete ga stvoriti ili "
-"načiniti swap prostor."
+"Izgleda kako ova particija nema datotečni sustav. Možete stvoriti datotečni "
+"sustav ili swap prostor."
 
 #. Type: select
 #. Choices
@@ -213,7 +215,7 @@ msgid ""
 "always need a root (\"/\") partition, and it's often good to have a separate "
 "partition for /home."
 msgstr ""
-"Kad je particija montirana, dostupna je korisnicima na sustavu. Uvijek vam "
+"Kada je particija montirana, dostupna je korisnicima na sustavu. Uvijek vam "
 "treba korijenska (\"/\") particija, a obično je dobro imati i posebnu "
 "particiju za /home direktorij."
 
@@ -222,7 +224,7 @@ msgstr ""
 #. :sl5:
 #: ../partconf.templates:7001
 msgid "Please enter where the partition should be mounted."
-msgstr "Molim odredite gdje particija treba biti montirana."
+msgstr "Odredite gdje particija treba biti montirana."
 
 #. Type: boolean
 #. Description
@@ -244,14 +246,14 @@ msgstr "Kako su particije već montirane, ne možete ništa mjenjati."
 #. :sl5:
 #: ../partconf.templates:9001
 msgid "Failed to unmount partitions"
-msgstr "Odmontiranje particija nije uspjelo"
+msgstr "Neuspjelo odmontiravanje particija"
 
 #. Type: error
 #. Description
 #. :sl5:
 #: ../partconf.templates:9001
 msgid "An unexpected error occurred while unmounting the partitions."
-msgstr "Pojavila se neočekivana greška prilikom odmontiranja particija."
+msgstr "Pojavila se neočekivana greška pri odmontiravanju particija."
 
 #. Type: error
 #. Description
@@ -266,7 +268,7 @@ msgstr "Postupak podešavanja particija je prekinut."
 #: ../partconf.templates:10001
 #, no-c-format
 msgid "Create %s file system"
-msgstr "Načini %s datotečni sustav"
+msgstr "Stvori %s datotečni sustav"
 
 #. Type: error
 #. Description
@@ -283,22 +285,22 @@ msgid ""
 "You need a root partition. Please assign a partition to the root mount point "
 "before continuing."
 msgstr ""
-"Treba vam korijenska particija. Molim odredite particiju za korijensku točku "
-"montiranja prije negoli nastavite."
+"Potrebna vam je korijenska particija. Odredite particiju za korijensku točku "
+"montiranja prije nego što nastavite."
 
 #. Type: error
 #. Description
 #. :sl5:
 #: ../partconf.templates:12001
 msgid "Partition assigned to ${MOUNT}"
-msgstr "Particiju montirati na ${MOUNT}"
+msgstr "Particija montirana na ${MOUNT}"
 
 #. Type: error
 #. Description
 #. :sl5:
 #: ../partconf.templates:12001
 msgid "Mounting a partition on ${MOUNT} makes no sense. Please change this."
-msgstr "Nema smisla montirati particiju na ${MOUNT}. Molim, promijenite to."
+msgstr "Nema smisla montirati particiju na ${MOUNT}. Promijenite to."
 
 #. Type: error
 #. Description
@@ -315,8 +317,8 @@ msgid ""
 "You cannot assign several partitions to the same mount point. Please change "
 "all but one of them."
 msgstr ""
-"Više particija ne može imati istu točku montiranja. Molim ostavite samo "
-"jednu od njih."
+"Više particija ne mogu imati istu točku montiranja. Ostavite samo jednu od "
+"njih."
 
 #. Type: boolean
 #. Description
@@ -330,7 +332,7 @@ msgstr "Spremni za stvaranje datotečnih sustava i montiranje particija?"
 #. :sl5:
 #: ../partconf.templates:14001
 msgid "File systems will be created and partitions mounted."
-msgstr "Bit će stvoreni datotečni sustavi, a particije montirane."
+msgstr "Datotečni sustavi biti će stvoreni, a particije montirane."
 
 #. Type: boolean
 #. Description
@@ -341,14 +343,14 @@ msgid ""
 "systems to."
 msgstr ""
 "UPOZORENJE: to će uništiti sve podatke na particijama koje ste odredili za "
-"stvaranje datotečnih sustava!"
+"stvaranje datotečnih sustava."
 
 #. Type: error
 #. Description
 #. :sl5:
 #: ../partconf.templates:15001
 msgid "Failed to create swap space on ${PARTITION}"
-msgstr "Stvaranje swap prostora na ${PARTITION} nije uspjelo"
+msgstr "Neuspjelo stvaranje swap prostora na ${PARTITION}"
 
 #. Type: error
 #. Description
@@ -375,15 +377,15 @@ msgid ""
 "Please check the error log on the third console or /var/log/messages for "
 "more information."
 msgstr ""
-"Molim pogledajte zabilješku o greškama na trećoj konzoli ili /var/log/"
-"messages za više obavijesti."
+"Provjerite zapis grešaka na trećoj konzoli ili /var/log/messages za više "
+"informacija."
 
 #. Type: error
 #. Description
 #. :sl5:
 #: ../partconf.templates:16001
 msgid "Failed to activate the swap space on ${PARTITION}"
-msgstr "Aktiviranje swap prostora na ${PARTITION} nije uspjelo"
+msgstr "Neuspješno aktiviranje swap prostora na ${PARTITION}"
 
 #. Type: error
 #. Description
@@ -397,7 +399,7 @@ msgstr "Pojavila se greška pri aktiviranju swap prostora na ${PARTITION}."
 #. :sl5:
 #: ../partconf.templates:17001
 msgid "Failed to create ${FS} file system on ${PARTITION}"
-msgstr "Stvaranje ${FS} datotečnog sustava na ${PARTITION} nije uspjelo"
+msgstr "Neuspješno stvaranje ${FS} datotečnog sustava na ${PARTITION}"
 
 #. Type: error
 #. Description
@@ -413,7 +415,7 @@ msgstr ""
 #. :sl5:
 #: ../partconf.templates:18001
 msgid "Failed to mount ${PARTITION} on ${MOUNT}"
-msgstr "Montiranje ${PARTITION} na ${MOUNT} nije uspjelo"
+msgstr "Neuspješno montiranje ${PARTITION} na ${MOUNT}"
 
 #. Type: error
 #. Description
@@ -428,4 +430,4 @@ msgstr "Pojavila se greška pri montiranju ${PARTITION} na ${MOUNT}."
 #. :sl5:
 #: ../partconf.templates:19001
 msgid "Configure and mount partitions"
-msgstr "Podesi i montiraj particije"
+msgstr "Podešavanje i montiranje particija"
