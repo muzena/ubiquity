@@ -16,21 +16,23 @@
 #   Vladimir Vuksan <vuksan@veus.hr>, 2000.
 #   Vlatko Kosturjak, 2001
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2012.
+# gogo <trebelnik2@gmail.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: grub-installer@packages.debian.org\n"
 "POT-Creation-Date: 2011-09-23 22:49+0000\n"
-"PO-Revision-Date: 2012-08-12 23:52+0200\n"
-"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
-"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"PO-Revision-Date: 2020-04-06 20:31+0200\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: Croatian <Hrvatski>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 3.36.0\n"
 
 #. Type: boolean
 #. Description
@@ -40,7 +42,7 @@ msgstr ""
 #. :sl1:
 #: ../grub-installer.templates:1001 ../grub-installer.templates:2001
 msgid "Install the GRUB boot loader to the master boot record?"
-msgstr "Instalirati GRUB boot učitavač u osnovni boot zapis?"
+msgstr "Instaliraj GRUB učitač pokretanja u glavni zapis pokretanja?"
 
 #. Type: boolean
 #. Description
@@ -49,7 +51,7 @@ msgstr "Instalirati GRUB boot učitavač u osnovni boot zapis?"
 msgid ""
 "The following other operating systems have been detected on this computer: "
 "${OS_LIST}"
-msgstr "Na ovom računalu pronađeni su sljedeći operacijski sustavi: ${OS_LIST}"
+msgstr "Na ovom računalu pronađeni su sljedeći operativni sustavi: ${OS_LIST}"
 
 #. Type: boolean
 #. Description
@@ -61,10 +63,10 @@ msgid ""
 "When your computer boots, you will be able to choose to load one of these "
 "operating systems or your new system."
 msgstr ""
-"Ako su popisani svi vaši operacijski sustavi, sigurno vam je instalirati "
-"boot učitavač u osnovni boot zapis (master boot record) vašeg prvog tvrdog "
-"diska. Kada se vaše računalo bude podizalo, moći ćete izabrati učitavanje "
-"jednog od tih drugih sustava, ili vaš novi (Debian) sustav."
+"Ako su vaši operativni sustavi na popisu iznad, najsigurnije bi vam bilo "
+"instalirati učitača pokretanja u glavni zapis pokretanja vašeg prvog čvrstog "
+"diska. Kada se vaše računalo bude pokretalo, moći ćete odabrati učitavanje "
+"jednog od tih drugih sustava, ili vaš svježe instalirani sustav."
 
 #. Type: boolean
 #. Description
@@ -75,9 +77,9 @@ msgid ""
 "computer. If so, it should be safe to install the GRUB boot loader to the "
 "master boot record of your first hard drive."
 msgstr ""
-"Čini se da je ova instalacija Debiana jedini operacijski sustav na ovom "
-"računalu. Ako je tako, sigurno vam je instalirati GRUB boot učitavač u "
-"osnovni boot zapis vašeg prvog tvrdog diska."
+"Izgleda kako je nova instalacija jedini operativni sustav na ovom računalu. "
+"Ako je tako, najsigurnije bi vam bilo instalirati GRUB učitač pokretanja u "
+"glavni zapis pokretanja vašeg prvog čvrstog diska."
 
 #. Type: boolean
 #. Description
@@ -89,23 +91,24 @@ msgid ""
 "operating system temporarily unbootable, though GRUB can be manually "
 "configured later to boot it."
 msgstr ""
-"Pozor: ako instalacija nije pronašla druge operacijske sustave koji se "
-"nalaze na ovom računalu, izmjena osnovnog boot zapisa učinit će te sustave "
-"privremeno nedostupnim. GRUB možete kasnije ručno podesiti da ih podiže."
+"Upozorenje: ako instalacijski program nije pronašao druge prisutne "
+"operativne sustave na vašem računalu, promjena glavnog zapisa pokretanja "
+"učinit će te sustave privremeno nedostupnim. GRUB možete kasnije ručno "
+"podesiti za pokretanje tih operativnih sustava."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../grub-installer.templates:3001
 msgid "Install the GRUB boot loader to the Serial ATA RAID disk?"
-msgstr "Instaliraj GRUB boot učitavač na Serial ATA RAID disk?"
+msgstr "Instaliraj GRUB učitača pokretanja na Serial ATA RAID disk?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../grub-installer.templates:3001
 msgid "Installation of GRUB on Serial ATA RAID is experimental."
-msgstr "Instalacija GRUB-a na Serial ATA RAID je eksperimentalna."
+msgstr "Instalacija GRUBA na Serial ATA RAID je eksperimentalna."
 
 #. Type: boolean
 #. Description
@@ -116,9 +119,9 @@ msgid ""
 "RAID disk. It is also assumed that disk is listed as the first hard disk in "
 "the boot order defined in the system's BIOS setup."
 msgstr ""
-"GRUB se uvijek instalira na osnovni boot zapis (MBR) Serial ATA RAID diska. "
-"Također se podrazumijeva da je disk odabran kao prvi tvrdi disk u poretku "
-"dizanja koji se podešava u BIOS-u sustava."
+"GRUB se uvijek instalira na glavni zapis pokretanja Serial ATA RAID diska. "
+"Isto tako se podrazumijeva da je disk odabran kao prvi čvrsti disk u poretku "
+"pokretanja koji se podešava u BIOSU sustava."
 
 #. Type: boolean
 #. Description
@@ -128,7 +131,7 @@ msgstr ""
 #. :sl3:
 #: ../grub-installer.templates:3001 ../grub-installer.templates:5001
 msgid "The GRUB root device is: ${GRUBROOT}."
-msgstr "Osnovni (root) uređaj u GRUB-u je: ${GRUBROOT}."
+msgstr "Osnovni GRUB korijenski uređaj je: ${GRUBROOT}."
 
 #. Type: error
 #. Description
@@ -142,15 +145,14 @@ msgstr "Osnovni (root) uređaj u GRUB-u je: ${GRUBROOT}."
 #: ../grub-installer.templates:4001 ../grub-installer.templates:6001
 #: ../grub-installer.templates:14001
 msgid "Unable to configure GRUB"
-msgstr "Ne mogu podesiti GRUB"
+msgstr "Nemoguće podešavanje GRUBA"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../grub-installer.templates:4001
 msgid "An error occurred while setting up GRUB for your Serial ATA RAID disk."
-msgstr ""
-"Pojavila se pogreška pri podešavanju GRUB-a za vaš Serial ATA RAID disk."
+msgstr "Pojavila se greška pri podešavanju GRUBA za vaš Serial ATA RAID disk."
 
 #. Type: error
 #. Description
@@ -160,21 +162,21 @@ msgstr ""
 #. :sl3:
 #: ../grub-installer.templates:4001 ../grub-installer.templates:6001
 msgid "The GRUB installation has been aborted."
-msgstr "Instalacija GRUB-a je prekinuta."
+msgstr "Instalacija GRUBA je prekinuta."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../grub-installer.templates:5001
 msgid "Install the GRUB boot loader to the multipath device?"
-msgstr "Instalirati GRUB boot učitavač na multipath uređaj?"
+msgstr "Instaliraj GRUB učitača pokretanja na više uređaja?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../grub-installer.templates:5001
 msgid "Installation of GRUB on multipath is experimental."
-msgstr "Instalacija GRUB-a na multipath je eksperimentalna."
+msgstr "Instalacija GRUBA na više uređaja je eksperimentalna."
 
 #. Type: boolean
 #. Description
@@ -185,23 +187,23 @@ msgid ""
 "device. It is also assumed that the WWID of this device is selected as boot "
 "device in the system's FibreChannel adapter BIOS."
 msgstr ""
-"GRUB se uvijek instalira na osnovni boot zapis (MBR) multipath uređaja. "
-"Također se podrazumijeva da je WWID ovog uređaja odabran kao uređaj za "
-"dizanje sustava u BIOS-u FibreChannel adaptera."
+"GRUB se uvijek instalira na glavni zapis pokretanja više uređaja. Isto tako "
+"se podrazumijeva da je WWID ovog uređaja odabran kao uređaj za pokretanje "
+"sustava u BIOSU FibreChannel adaptera."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../grub-installer.templates:6001
 msgid "An error occurred while setting up GRUB for the multipath device."
-msgstr "Pojavila se pogreška pri podešavanju GRUB-a za multipath uređaj."
+msgstr "Pojavila se greška pri podešavanju GRUBA za više uređaja."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../grub-installer.templates:7001
 msgid "Device for boot loader installation:"
-msgstr "Uređaj za instalaciju boot učitavača:"
+msgstr "Uređaj za instalaciju učitača pokretanja:"
 
 #. Type: string
 #. Description
@@ -214,11 +216,11 @@ msgid ""
 "can install GRUB elsewhere on the drive, or to another drive, or even to a "
 "floppy."
 msgstr ""
-"Trebate učiniti vaš novoinstalirani sustav sposobnim da se podiže, i to tako "
-"da instalirate GRUB boot učitavač na odgovarajući diskovni uređaj. "
-"Uobičajeno je staviti ga u osnovni boot zapis (master boot record) vašeg "
-"prvog tvrdog diska. Možete ga staviti i drugdje na tome disku, ili na drugi "
-"disk, ili čak i na disketu."
+"Trebate učiniti vaš svježe instalirani sustav sposobnim da se pokreće, i to "
+"tako da instalirate GRUB učitač pokretanja na odgovarajući diskovni uređaj. "
+"Uobičajeno je instalirati ga u glavni zapis pokretanja vašeg prvog čvrstog "
+"diska. Možete ga instalirati i drugdje na disku, ili na drugi disk, ili čak "
+"i na disketu."
 
 #. Type: string
 #. Description
@@ -234,13 +236,14 @@ msgid ""
 "   drive;\n"
 " - \"/dev/fd0\" will install GRUB to a floppy."
 msgstr ""
-"Uređaj možete odrediti kao uređaj iz /dev. Evo nekoliko primjera:\n"
-" - \"/dev/sda\" instalirat će GRUB u osnovni boot zapis vašeg prvog\n"
-"   tvrdog diska;\n"
-" - \"/dev/sda2\" označava drugu particiju vašeg prvog tvrdog diska;\n"
-" - \"/dev/sdc5\" označava prvu logičku particiju vašeg trećeg\n"
-"   tvrdog diska;\n"
-" - \"/dev/fd0\" instalirat će GRUB na disketu."
+"Uređaj bi trebao biti određen kao uređaj u /dev. U nastavku slijedi nekoliko "
+"primjera:\n"
+" - \"/dev/sda\" će instalirati GRUB na glavni zapis pokretanja prvog\n"
+"   čvrstog diska;\n"
+" - \"/dev/sda2\" će koristiti drugu particiju prvog čvrstog diska;\n"
+" - \"/dev/sdc5\" će koristiti prvu proširenu particiju vašeg trećeg čvrstog "
+"diska;\n"
+" - \"/dev/fd0\" će instalirati GRUB na disketu."
 
 #. Type: password
 #. Description
@@ -261,27 +264,26 @@ msgid ""
 "GRUB command-line interface. By default, any user will still be able to "
 "start any menu entry without entering the password."
 msgstr ""
-"GRUB boot učitavač nudi niz moćnih interaktivnih mogućnosti, koje bi se "
+"GRUB učitač pokretanja nudi niz moćnih interaktivnih značajki, koje bi se "
 "mogle iskoristiti za kompromitiranje vašeg sustava ako neovlašteni korisnici "
-"imaju pristup stroju dok se podiže. Kako bi se obranili od tako nečeg, "
+"imaju pristup sustavu tijekom pokretanja. Kako bi se obranili od toga, "
 "možete odabrati lozinku čiji će se upis zahtijevati prije uređivanja "
-"izbornika ili ulaska u GRUB naredbeni redak. Pretpostavljena vrijednost je "
-"da će svaki korisnik moći pokrenuti svaki izbor iz izbornika bez unošenja "
-"lozinke."
+"izbornika ili ulaska u GRUB naredbeni redak. Uobičajeno će svaki korisnik "
+"moći pokrenuti svaki izbor iz izbornika bez unošenja lozinke."
 
 #. Type: password
 #. Description
 #. :sl2:
 #: ../grub-installer.templates:8001
 msgid "If you do not wish to set a GRUB password, leave this field blank."
-msgstr "Ako ne želite postaviti GRUB lozinku, ostavite prazno."
+msgstr "Ako ne želite postaviti GRUB lozinku, ostavite ovo polje prazno."
 
 #. Type: password
 #. Description
 #. :sl2:
 #: ../grub-installer.templates:9001
 msgid "Re-enter password to verify:"
-msgstr "Iznova unesite lozinku za potvrdu:"
+msgstr "Ponovno upišite lozinku za potvrdu:"
 
 #. Type: password
 #. Description
@@ -290,29 +292,28 @@ msgstr "Iznova unesite lozinku za potvrdu:"
 msgid ""
 "Please enter the same GRUB password again to verify that you have typed it "
 "correctly."
-msgstr ""
-"Molim unesite istu GRUB lozinku kao potvrdu da ste je ispravno utipkali."
+msgstr "Upišite istu GRUB lozinku kao potvrdu da ste ju ispravno utipkali."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../grub-installer.templates:10001
 msgid "Password input error"
-msgstr "Pogreška pri unošenju lozinke"
+msgstr "Greška upisa lozinke"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../grub-installer.templates:10001
 msgid "The two passwords you entered were not the same. Please try again."
-msgstr "Lozinke koje ste unijeli nisu jednake. Molim pokušajte iznova."
+msgstr "Lozinke koje ste upisali nisu jednake. Pokušajte ponovno."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../grub-installer.templates:12001
 msgid "GRUB installation failed"
-msgstr "Instalacija GRUB-a nije uspjela"
+msgstr "Instalacija GRUBA nije uspjela"
 
 #. Type: error
 #. Description
@@ -322,22 +323,22 @@ msgid ""
 "The '${GRUB}' package failed to install into /target/. Without the GRUB boot "
 "loader, the installed system will not boot."
 msgstr ""
-"Paket '${GRUB}' se nije uspio instalirati na /target/. Bez GRUB boot "
-"učitavača, instalirani sustav se neće moći podići."
+"Paket '${GRUB}' se nije uspio instalirati u /target/. Bez GRUB učitača "
+"pokretanja, instalirani sustav se neće moći pokrenuti."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../grub-installer.templates:13001
 msgid "Unable to install GRUB in ${BOOTDEV}"
-msgstr "Ne mogu instalirati GRUB na ${BOOTDEV}"
+msgstr "Nemoguća instalacija GRUBA u ${BOOTDEV}"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../grub-installer.templates:13001
 msgid "Executing 'grub-install ${BOOTDEV}' failed."
-msgstr "Izvršenje 'grub-install ${BOOTDEV}' nije uspjelo."
+msgstr "Pokretanje 'grub-install ${BOOTDEV}' nije uspjelo."
 
 #. Type: error
 #. Description
@@ -347,21 +348,21 @@ msgstr "Izvršenje 'grub-install ${BOOTDEV}' nije uspjelo."
 #. :sl2:
 #: ../grub-installer.templates:13001 ../grub-installer.templates:14001
 msgid "This is a fatal error."
-msgstr "Ovo je kobna pogreška."
+msgstr "Ovo je kobna greška."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../grub-installer.templates:14001
 msgid "Executing 'update-grub' failed."
-msgstr "Izvršenje 'update-grub' nije uspjelo."
+msgstr "Pokretanje 'update-grub' nije uspjelo."
 
 #. Type: boolean
 #. Description
 #. :sl4:
 #: ../grub-installer.templates:16001
 msgid "Install GRUB?"
-msgstr "Instalirati GRUB?"
+msgstr "Instaliraj GRUB?"
 
 #. Type: boolean
 #. Description
@@ -371,8 +372,8 @@ msgid ""
 "GRUB 2 is the next generation of GNU GRUB, the boot loader that is commonly "
 "used on i386/amd64 PCs. It is now also available for ${ARCH}."
 msgstr ""
-"GRUB 2 je sljedeća generacija GNU GRUB boot učitavača koji se uobičajeno "
-"koristi na i386/amd64 računalima. Sada je također dostupan na ${ARCH}."
+"GRUB 2 je sljedeća generacija GNU GRUBA, učitača pokretanja koji se obično "
+"koristi na i386/amd64 PC-ima. Sada je isto tako dostupan i za ${ARCH}."
 
 #. Type: boolean
 #. Description
@@ -384,24 +385,24 @@ msgid ""
 "breakage, and have an idea on how to recover your system if it becomes "
 "unbootable. You're advised not to try this in production environments."
 msgstr ""
-"Ima zanimljive nove mogućnosti, no još uvijek je eksperimentalni softver na "
-"ovoj arhitekturi. Ako se odlučite za instalaciju, trebate se pripremiti za "
-"probleme u radu i imati ideju kako oporaviti sustav ako se ne bude mogao "
-"podići. Njegovo se korištenje ne preporučuje u proizvodnim okruženjima."
+"Ima zanimljive nove značajke, ali je još eksperimentalan za ovu arhitekturu. "
+"Ako odaberete instalaciju, pripremite se na nestabilnosti te naučite kako "
+"oporaviti vaš sustav ako se više ne bude mogao pokrenuti. Preporuča se da "
+"ovo ne pokušavate u okruženjima koja zahtijevaju stabilnost."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../grub-installer.templates:17001
 msgid "Installing GRUB boot loader"
-msgstr "Instaliram GRUB boot učitavač"
+msgstr "Instaliacija GRUB učitača pokretanja"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../grub-installer.templates:18001
 msgid "Looking for other operating systems..."
-msgstr "Tražim druge operacijske sustave..."
+msgstr "Pretraživanje drugih operacijskih sustava..."
 
 #. Type: text
 #. Description
@@ -415,7 +416,7 @@ msgstr "Instaliram '${GRUB}' paket..."
 #. :sl1:
 #: ../grub-installer.templates:20001
 msgid "Determining GRUB boot device..."
-msgstr "Određujem GRUB-ov boot uređaj..."
+msgstr "Određujem uređaj GRUB učitača..."
 
 #. Type: text
 #. Description
@@ -436,7 +437,7 @@ msgstr "Pokrećem \"update-grub\"..."
 #. :sl1:
 #: ../grub-installer.templates:23001
 msgid "Updating /etc/kernel-img.conf..."
-msgstr "Osvježavam /etc/kernel-img.conf..."
+msgstr "Nadopunjavam /etc/kernel-img.conf..."
 
 #. Type: text
 #. Description
@@ -444,7 +445,7 @@ msgstr "Osvježavam /etc/kernel-img.conf..."
 #. :sl1:
 #: ../grub-installer.templates:24001
 msgid "Install the GRUB boot loader on a hard disk"
-msgstr "Instaliraj GRUB boot učitavač na tvrdi disk"
+msgstr "Instalacija GRUB učitača pokretnja na čvrsti disk"
 
 #. Type: text
 #. Description
@@ -452,4 +453,4 @@ msgstr "Instaliraj GRUB boot učitavač na tvrdi disk"
 #. :sl2:
 #: ../grub-installer.templates:25001
 msgid "Reinstall GRUB boot loader"
-msgstr "Ponovo instalirati GRUB boot učitavač"
+msgstr "Ponovo instaliraj GRUB učitača pokretanja"
