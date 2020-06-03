@@ -1,36 +1,31 @@
-# THIS FILE IS GENERATED AUTOMATICALLY FROM THE D-I PO MASTER FILES
-# The master files can be found under packages/po/
 #
-# DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
 #
-# Croatian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
 #
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@computer.org>, 2001, 2004.
-#   Free Software Foundation, Inc., 2000,2004
-#   Josip Rodin, 2008
-#   Krunoslav Gernhard, 2004
-#   Vladimir Vuksan <vuksan@veus.hr>, 2000.
-#   Vlatko Kosturjak, 2001
-# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013.
+#    Developers do not need to manually edit POT or PO files.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Debian-installer 1st-stage master file HR\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2013-04-17 18:08+0200\n"
-"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
-"Language-Team: Croatian <lokalizacija@linux.hr>\n"
-"Language: hr\n"
+"PO-Revision-Date: 2020-06-03 21:54+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"X-Generator: Poedit 2.3\n"
 
 #. Type: text
 #. Description
@@ -44,14 +39,14 @@ msgstr "Instaliram Yaboot"
 #. :sl4:
 #: ../yaboot-installer.templates:2001
 msgid "Installing Yaboot boot loader"
-msgstr "Instaliram Yaboot boot učitavač"
+msgstr "Instalacija Yaboot učitača pokretanja"
 
 #. Type: boolean
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:3001
 msgid "Yaboot installation failed.  Continue anyway?"
-msgstr "Instalacija Yaboot-a nije uspjela. Da ipak nastavim?"
+msgstr "Yaboot instalacija nije uspjela.  Ipak nastavi?"
 
 #. Type: boolean
 #. Description
@@ -62,23 +57,23 @@ msgid ""
 "boot loader is a required step.  The install problem might however be "
 "unrelated to Yaboot, so continuing the installation may be possible."
 msgstr ""
-"Nije uspjela instalacija yaboot paketa na /target/. Instalacija Yaboot-a kao "
-"boot učitavača je zahtijevani korak. Međutim, problem može biti nevezan za "
-"Yaboot, pa ćete možda moći nastaviti instalaciju."
+"Nije uspjela instalacija yaboot paketa u /target/.  Instalacija Yaboota kao "
+"učitača pokretanja je neophodan korak.  Međutim, problem može biti nevezan "
+"za Yaboot, pa ćete možda moći nastaviti instalaciju."
 
 #. Type: text
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:4001
 msgid "Looking for bootstrap partitions"
-msgstr "Tražim bootstrap particije"
+msgstr "Traženje particija samoučitavanja"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:5001
 msgid "No bootstrap partition found"
-msgstr "Nema bootstrap particija"
+msgstr "Nema particija samoučitavanja"
 
 #. Type: error
 #. Description
@@ -88,15 +83,16 @@ msgid ""
 "No hard disks were found which have an \"Apple_Bootstrap\" partition.  You "
 "must create an 819200-byte partition with type \"Apple_Bootstrap\"."
 msgstr ""
-"Nijedan tvrdi disk ne sadrži \"Apple_Bootstrap\" particiju. Morate načiniti "
-"jednu particiju veličine 819200 bajtova, vrste \"Apple_Bootstrap\"."
+"Nama pronađenih čvrstih diskova koji sadrže Apple particiju samoučitavanja. "
+"Morate stvoriti jednu particiju veličine 819200 bajtova, vrste "
+"\"Apple_Bootstrap\"."
 
 #. Type: text
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:6001
 msgid "Looking for root partition"
-msgstr "Tražim korijensku particiju"
+msgstr "Traženje korijenske particije"
 
 #. Type: error
 #. Description
@@ -121,14 +117,14 @@ msgstr ""
 #. :sl4:
 #: ../yaboot-installer.templates:8001
 msgid "Looking for other operating systems"
-msgstr "Tražim druge operacijske sustave"
+msgstr "Pretraživanje drugih operativnih sustava"
 
 #. Type: select
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:9001
 msgid "Device for boot loader installation:"
-msgstr "Uređaj za instalaciju boot učitavača:"
+msgstr "Uređaj za instalaciju učitača pokretanja:"
 
 #. Type: select
 #. Description
@@ -140,37 +136,37 @@ msgid ""
 "destination partition from among these partitions that have the bootable "
 "flag set."
 msgstr ""
-"Yaboot (Linux boot učitavač) mora biti instaliran na particiju tvrdoga diska "
-"da bi se vaš sustav mogao podizati. Molim izaberite odredišnu particiju "
-"između onih koje imaju podignutu bootable zastavicu."
+"Yaboot (Linux učitač pokretanja) mora biti instaliran na particiju čvrstoga "
+"diska kako bi se vaš sustav mogao pokretati.  Odaberite odredišnu particiju "
+"između onih koje imaju postavljenu oznaku pokretanja."
 
 #. Type: select
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:9001
 msgid "Warning: this will erase all data on the selected partition!"
-msgstr "Upozorenje: to će obrisati sve podatke na izabranoj particiji!"
+msgstr "Upozorenje: ovo će obrisati sve podatke na odabranoj particiji!"
 
 #. Type: text
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:10001
 msgid "Creating yaboot configuration"
-msgstr "Stvaram Yaboot-ove postavke"
+msgstr "Stvaram Yaboot podešavanja"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:11001
 msgid "Failed to create yaboot configuration"
-msgstr "Stvaranje Yaboot-ovih postavki nije uspjelo"
+msgstr "Neuspjelo stvaranje Yaboot podešavanja"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:11001
 msgid "The creation of the main yaboot configuration file failed."
-msgstr "Stvaranje glavne Yaboot-ove datoteke postavki nije uspjelo."
+msgstr "Stvaranje glavne Yaboot datoteke podešavanja nije uspjelo."
 
 #. Type: error
 #. Description
@@ -198,56 +194,56 @@ msgstr "Za pojedinosti provjerite /var/log/syslog ili četvrtu konzolu."
 #: ../yaboot-installer.templates:11001 ../yaboot-installer.templates:13001
 #: ../yaboot-installer.templates:15001
 msgid "Warning: Your system may be unbootable!"
-msgstr "Upozorenje: vaš sustav možda se ne može pokrenuti!"
+msgstr "Upozorenje: Vaš sustav se možda neće moći pokrenuti!"
 
 #. Type: text
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:12001
 msgid "Installing yaboot into bootstrap partition"
-msgstr "Instaliram Yaboot na bootstrap particiju"
+msgstr "Instalacija Yaboota na particiju samoučitavanja"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:13001
 msgid "Failed to install boot loader"
-msgstr "Instalacija boot učitavača nije uspjela"
+msgstr "Neuspjela instalacija učitača pokretanja"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:13001
 msgid "The installation of the yaboot boot loader failed."
-msgstr "Instalacija Yaboot boot učitavača nije uspjela."
+msgstr "Instalacija Yaboot učitača pokretanja nije uspjela."
 
 #. Type: note
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:14001
 msgid "Successfully installed yaboot"
-msgstr "Instalacija Yaboot-a uspjela"
+msgstr "Yaboot je uspješno instaliran"
 
 #. Type: note
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:14001
 msgid "The yaboot boot loader was successfully installed."
-msgstr "Yaboot boot učitavač uspješno je instaliran."
+msgstr "Yaboot učitač pokretanja je uspješno instaliran."
 
 #. Type: note
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:14001
 msgid "The new system is now ready to boot."
-msgstr "Računalo je sada spremno podići novi sustav."
+msgstr "Novi sustav je sada spreman za pokretanje."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../yaboot-installer.templates:15001
 msgid "Failed to mount /target/proc"
-msgstr "Montiranje /target/proc nije uspjelo"
+msgstr "Neuspjelo montiranje /target/proc"
 
 #. Type: error
 #. Description
@@ -261,7 +257,7 @@ msgstr "Montiranje proc datotečnog sustava na /target/proc nije uspjelo."
 #. :sl4:
 #: ../yaboot-installer.templates:16001
 msgid "Setting firmware variables for automatic boot"
-msgstr "Postavljanje 'firmware' varijabli za automatsko podizanje sustava"
+msgstr "Postavljanje varijabli firmvera za automatsko pokretanje sustava"
 
 #. Type: note
 #. Description
@@ -273,10 +269,10 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"Kako bi se vaš sustav automatski podizao, neke varijable moraju biti "
-"postavljene u Genesi firmwareu. Na kraju instalacije sustav će se ponovo "
-"podići. Na firmware promptu postavite sljedeće firmware varijable za "
-"omogućavanje automatskog podizanja sustava:"
+"Kako bi se vaš sustav automatski pokretao, neke varijable moraju biti "
+"postavljene u Genesi firmveru.  Na kraju instalacije sustav će se ponovno "
+"pokrenuti.  Na upitu firmvera postavite sljedeće varijable firmvera za "
+"omogućavanje automatskog pokretanja sustava:"
 
 #. Type: note
 #. Description
@@ -286,8 +282,8 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"To morate učiniti samo jednom. Nakon toga unesite naredbu 'boot', ili ponovo "
-"pokrenite sustav da kako bi nastavilo do svog novoinstaliranog sustava."
+"To ćete morati učiniti samo jednom.  Nakon toga upišite naredbu 'boot' ili "
+"ponovo pokrenite sustav kako bi došli do svog svježe instaliranog sustava."
 
 #. Type: note
 #. Description
@@ -297,8 +293,7 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"Alternativno, moći ćete ručno učitati jezgru tako da na firmware promptu "
-"unesete:"
+"Alternativno, moći ćete ručno pokrenuti kernel upisivanjem na firmvare upitu:"
 
 #. Type: text
 #. Description
@@ -306,7 +301,7 @@ msgstr ""
 #. :sl4:
 #: ../yaboot-installer.templates:17001
 msgid "Install yaboot on a hard disk"
-msgstr "Instaliraj Yaboot na tvrdi disk."
+msgstr "Instaliraj Yaboot na tvrdi disk"
 
 #. Type: text
 #. Description
@@ -314,4 +309,4 @@ msgstr "Instaliraj Yaboot na tvrdi disk."
 #. :sl4:
 #: ../yaboot-installer.templates:18001
 msgid "Reinstall yaboot boot loader"
-msgstr "Ponovo instaliram Yaboot boot učitavač"
+msgstr "Ponovno instaliraj Yaboot učitač pokretnja"
