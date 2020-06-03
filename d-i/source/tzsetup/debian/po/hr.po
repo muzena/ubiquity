@@ -1,94 +1,93 @@
-# THIS FILE IS GENERATED AUTOMATICALLY FROM THE D-I PO MASTER FILES
-# The master files can be found under packages/po/
-#
-# DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
-#
-# Croatian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Debian-installer 1st-stage master file HR\n"
+"Project-Id-Version: tzsetup\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2012-03-07 23:31+0000\n"
-"PO-Revision-Date: 2008-09-01 18:05+0200\n"
-"Last-Translator: Josip Rodin <joy+ditrans@linux.hr>\n"
-"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"PO-Revision-Date: 2020-06-03 21:36+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"X-Generator: Poedit 2.3\n"
 
 #. Type: select
 #. Choices
 #. Time zone for Antarctica
 #: ../common.templates:2001
 msgid "McMurdo"
-msgstr "McMurdo"
+msgstr "McMurdo postaja"
 
 #. Type: select
 #. Choices
 #. Time zone for Antarctica
 #: ../common.templates:2001
 msgid "south pole"
-msgstr "south pole"
+msgstr "južni pol"
 
 #. Type: select
 #. Choices
 #. Time zone for Antarctica
 #: ../common.templates:2001
 msgid "Rothera"
-msgstr "Rothera"
+msgstr "Rothera postaja"
 
 #. Type: select
 #. Choices
 #. Time zone for Antarctica
 #: ../common.templates:2001
 msgid "Palmer"
-msgstr "Palmer"
+msgstr "Palmer postaja"
 
 #. Type: select
 #. Choices
 #. Time zone for Antarctica
 #: ../common.templates:2001
 msgid "Mawson"
-msgstr "Mawson"
+msgstr "Mawson postaja"
 
 #. Type: select
 #. Choices
 #. Time zone for Antarctica
 #: ../common.templates:2001
 msgid "Davis"
-msgstr "Davis"
+msgstr "Davis postaja"
 
 #. Type: select
 #. Choices
 #. Time zone for Antarctica
 #: ../common.templates:2001
 msgid "Casey"
-msgstr "Casey"
+msgstr "Casey postaja"
 
 #. Type: select
 #. Choices
 #. Time zone for Antarctica
 #: ../common.templates:2001
 msgid "Vostok"
-msgstr "Vostok"
+msgstr "Vostok postaja"
 
 #. Type: select
 #. Choices
 #. Time zone for Antarctica
 #: ../common.templates:2001
 msgid "Dumont-d'Urville"
-msgstr "Dumont-d'Urville"
+msgstr "Dumont-d'Urville postaja"
 
 #. Type: select
 #. Choices
 #. Time zone for Antarctica
 #: ../common.templates:2001
 msgid "Syowa"
-msgstr "Syowa"
+msgstr "Syowa postaja"
 
 #. Type: select
 #. Choices
@@ -195,7 +194,7 @@ msgstr "Odaberite lokaciju u vašoj vremenskoj zoni:"
 #. Time zone for Australia
 #: ../common.templates:3001
 msgid "Lord Howe Island"
-msgstr "Lord Howe Island"
+msgstr "Lord Howe otok"
 
 #. Type: select
 #. Choices
@@ -395,7 +394,7 @@ msgstr "Newfoundland"
 #. Time zone for Canada
 #: ../common.templates:5001
 msgid "Atlantic"
-msgstr "Atlantic"
+msgstr "Atlantik"
 
 #. Type: select
 #. Choices
@@ -405,7 +404,7 @@ msgstr "Atlantic"
 #. Time zone for United States
 #: ../common.templates:5001 ../common.templates:22001
 msgid "Eastern"
-msgstr "Eastern"
+msgstr "Istočno"
 
 #. Type: select
 #. Choices
@@ -416,17 +415,16 @@ msgstr "Eastern"
 #. Type: select
 #. Choices
 #. Time zone for United States
-#: ../common.templates:5001 ../common.templates:16001
-#: ../common.templates:22001
+#: ../common.templates:5001 ../common.templates:16001 ../common.templates:22001
 msgid "Central"
-msgstr "Central"
+msgstr "Središnje"
 
 #. Type: select
 #. Choices
 #. Time zone for Canada
 #: ../common.templates:5001
 msgid "East Saskatchewan"
-msgstr "East Saskatchewan"
+msgstr "Istočni Saskatchewan"
 
 #. Type: select
 #. Choices
@@ -444,10 +442,9 @@ msgstr "Saskatchewan"
 #. Type: select
 #. Choices
 #. Time zone for United States
-#: ../common.templates:5001 ../common.templates:16001
-#: ../common.templates:22001
+#: ../common.templates:5001 ../common.templates:16001 ../common.templates:22001
 msgid "Mountain"
-msgstr "Mountain"
+msgstr "Planinska"
 
 #. Type: select
 #. Choices
@@ -458,10 +455,9 @@ msgstr "Mountain"
 #. Type: select
 #. Choices
 #. Time zone for United States
-#: ../common.templates:5001 ../common.templates:16001
-#: ../common.templates:22001
+#: ../common.templates:5001 ../common.templates:16001 ../common.templates:22001
 msgid "Pacific"
-msgstr "Pacific"
+msgstr "Pacifik"
 
 #. Type: select
 #. Choices
@@ -488,7 +484,7 @@ msgstr "Yukon"
 #: ../common.templates:16002 ../common.templates:20002
 #: ../common.templates:22002 ../common.templates:23001
 msgid "Select your time zone:"
-msgstr "Izaberite svoju vremensku zonu:"
+msgstr "Odaberite svoju vremensku zonu:"
 
 #. Type: select
 #. Choices
@@ -509,21 +505,21 @@ msgstr "Lubumbashi"
 #. Time zone for Chile
 #: ../common.templates:7001
 msgid "Santiago"
-msgstr "America/Santiago"
+msgstr "Santiago"
 
 #. Type: select
 #. Choices
 #. Time zone for Chile
 #: ../common.templates:7001
 msgid "Easter Island"
-msgstr "Easter Island"
+msgstr "Uskršnji otok"
 
 #. Type: select
 #. Choices
 #. Time zone for Ecuador
 #: ../common.templates:8001
 msgid "Guayaquil"
-msgstr "America/Guayaquil"
+msgstr "Guayaquil"
 
 #. Type: select
 #. Choices
@@ -551,7 +547,7 @@ msgstr "Ceuta"
 #. Time zone for Spain
 #: ../common.templates:9001
 msgid "Canary Islands"
-msgstr "Canary Islands"
+msgstr "Kanarsko otočje"
 
 #. Type: select
 #. Choices
@@ -586,28 +582,28 @@ msgstr "Kosrae"
 #. Time zone for Greenland
 #: ../common.templates:11001
 msgid "Godthab"
-msgstr "America/Godthab"
+msgstr "Godthab"
 
 #. Type: select
 #. Choices
 #. Time zone for Greenland
 #: ../common.templates:11001
 msgid "Danmarkshavn"
-msgstr "America/Danmarkshavn"
+msgstr "Danmarkshavn"
 
 #. Type: select
 #. Choices
 #. Time zone for Greenland
 #: ../common.templates:11001
 msgid "Scoresbysund"
-msgstr "America/Scoresbysund"
+msgstr "Scoresbysund"
 
 #. Type: select
 #. Choices
 #. Time zone for Greenland
 #: ../common.templates:11001
 msgid "Thule"
-msgstr "America/Thule"
+msgstr "Thule"
 
 #. Type: select
 #. Choices
@@ -642,21 +638,21 @@ msgstr "Jayapura"
 #. Time zone for Kiribati
 #: ../common.templates:13001
 msgid "Tarawa (Gilbert Islands)"
-msgstr "Tarawa (Gilbert Islands)"
+msgstr "Tarawa (Gilbertovi otoci)"
 
 #. Type: select
 #. Choices
 #. Time zone for Kiribati
 #: ../common.templates:13001
 msgid "Enderbury (Phoenix Islands)"
-msgstr "Enderbury (Phoenix Islands)"
+msgstr "Enderbury (Phoenix otočje)"
 
 #. Type: select
 #. Choices
 #. Time zone for Kiribati
 #: ../common.templates:13001
 msgid "Kiritimati (Line Islands)"
-msgstr "Kiritimati (Line Islands)"
+msgstr "Kiritimati (Line otočje)"
 
 #. Type: select
 #. Choices
@@ -684,7 +680,7 @@ msgstr "Aqtobe"
 #. Time zone for Kazakhstan
 #: ../common.templates:14001
 msgid "Atyrau"
-msgstr "Aqtau"
+msgstr "Atyrau"
 
 #. Type: select
 #. Choices
@@ -698,7 +694,7 @@ msgstr "Oral"
 #. Time zone for Mongolia
 #: ../common.templates:15001
 msgid "Ulaanbaatar"
-msgstr "Ulaanbaatar"
+msgstr "Ulan Bator"
 
 #. Type: select
 #. Choices
@@ -726,168 +722,168 @@ msgstr "Auckland"
 #. Time zone for New Zealand
 #: ../common.templates:17001
 msgid "Chatham Islands"
-msgstr "Chatham Islands"
+msgstr "Otoci Chatham"
 
 #. Type: select
 #. Choices
 #. Time zone for French Polynesia
 #: ../common.templates:18001
 msgid "Tahiti (Society Islands)"
-msgstr "Tahiti (Society Islands)"
+msgstr "Tahiti (Society otočje)"
 
 #. Type: select
 #. Choices
 #. Time zone for French Polynesia
 #: ../common.templates:18001
 msgid "Marquesas Islands"
-msgstr "Marquesas Islands"
+msgstr "Markižansko otočje"
 
 #. Type: select
 #. Choices
 #. Time zone for French Polynesia
 #: ../common.templates:18001
 msgid "Gambier Islands"
-msgstr "Gambier Islands"
+msgstr "Gambiersko otočje"
 
 #. Type: select
 #. Choices
 #. Time zone for Portugal
 #: ../common.templates:19001
 msgid "Lisbon"
-msgstr "Lisbon"
+msgstr "Lisabon"
 
 #. Type: select
 #. Choices
 #. Time zone for Portugal
 #: ../common.templates:19001
 msgid "Madeira Islands"
-msgstr "Madeira Islands"
+msgstr "Madeiransko otočje"
 
 #. Type: select
 #. Choices
 #. Time zone for Portugal
 #: ../common.templates:19001
 msgid "Azores"
-msgstr "Azores"
+msgstr "Azori"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow-01 - Kaliningrad"
-msgstr "Moscow-01 - Kaliningrad"
+msgstr "Moskva-01 - Kalinjingrad"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+00 - west Russia"
-msgstr "Moscow+00 - west Russia"
+msgstr "Moskva+00 - zapadna Rusija"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+01 - Samara"
-msgstr "Moscow+01 - Samara"
+msgstr "Moskva+01 - Samara"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+02 - Urals"
-msgstr "Moscow+02 - Urals"
+msgstr "Moskva+02 - Ural"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+03 - west Siberia"
-msgstr "Moscow+03 - west Siberia"
+msgstr "Moskva+03 - zapadni Sibir"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+03 - Novosibirsk"
-msgstr "Moscow+03 - Novosibirsk"
+msgstr "Moskva+03 - Novosibirsk"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+04 - Yenisei River"
-msgstr "Moscow+04 - Yenisei River"
+msgstr "Moskva+04 - rijeka Jenisej"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+05 - Lake Baikal"
-msgstr "Moscow+05 - Lake Baikal"
+msgstr "Moskva+05 - Bajkalsko jezero"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+06 - Lena River"
-msgstr "Moscow+06 - Lena River"
+msgstr "Moskva+06 - rijeka Lena"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+07 - Amur River"
-msgstr "Moscow+07 - Amur River"
+msgstr "Moskva+07 - rijeka Amur"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+07 - Sakhalin Island"
-msgstr "Moscow+07 - Sakhalin Island"
+msgstr "Moskva+07 - Sahalinsko otočje"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+08 - Magadan"
-msgstr "Moscow+08 - Magadan"
+msgstr "Moskva+08 - Magadan"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+09 - Kamchatka"
-msgstr "Moscow+09 - Kamchatka"
+msgstr "Moskva+09 - Kamčatka"
 
 #. Type: select
 #. Choices
 #. Time zone for Russian Federation
 #: ../common.templates:20001
 msgid "Moscow+10 - Bering Sea"
-msgstr "Moscow+10 - Bering Sea"
+msgstr "Moskva+10 - Beringovo more"
 
 #. Type: select
 #. Choices
 #. Time zone for United States Minor Outlying Islands
 #: ../common.templates:21001
 msgid "Johnston Atoll"
-msgstr "Johnston Atoll"
+msgstr "Atol Johnston"
 
 #. Type: select
 #. Choices
 #. Time zone for United States Minor Outlying Islands
 #: ../common.templates:21001
 msgid "Midway Islands"
-msgstr "Midway Islands"
+msgstr "Atol Midway"
 
 #. Type: select
 #. Choices
 #. Time zone for United States Minor Outlying Islands
 #: ../common.templates:21001
 msgid "Wake Island"
-msgstr "Wake Island"
+msgstr "Otok Wake"
 
 #. Type: select
 #. Choices
@@ -901,7 +897,7 @@ msgstr "Alaska"
 #. Time zone for United States
 #: ../common.templates:22001
 msgid "Hawaii"
-msgstr "Hawaii"
+msgstr "Havaji"
 
 #. Type: select
 #. Choices
@@ -915,7 +911,7 @@ msgstr "Arizona"
 #. Time zone for United States
 #: ../common.templates:22001
 msgid "East Indiana"
-msgstr "East Indiana"
+msgstr "Istočna Indiana"
 
 #. Type: select
 #. Choices
@@ -930,7 +926,7 @@ msgstr "Samoa"
 #. :sl1:
 #: ../tzsetup-udeb.templates:1001
 msgid "Saving the time zone..."
-msgstr "Spremam vremensku zonu..."
+msgstr "Spremanje vremenske zone..."
 
 #. Type: boolean
 #. Description
@@ -966,7 +962,5 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../tzsetup-udeb.templates:4001
-#, fuzzy
-#| msgid "Based on your country, your time zone is ${ZONE}."
 msgid "Based on your present physical location, your time zone is ${ZONE}."
-msgstr "Na osnovu vaše zemlje, vaša vremenska zona je ${ZONE}."
+msgstr "Na osnovi trenutačne fizičke lokacije, vaša vremenska zona je ${ZONE}."
