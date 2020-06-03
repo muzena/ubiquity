@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2020-06-03 21:54+0200\n"
+"PO-Revision-Date: 2020-06-03 22:02+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -66,7 +66,7 @@ msgstr ""
 #. :sl4:
 #: ../yaboot-installer.templates:4001
 msgid "Looking for bootstrap partitions"
-msgstr "Traženje particija samoučitavanja"
+msgstr "Pretraživanje particija samoučitavanja"
 
 #. Type: error
 #. Description
@@ -92,7 +92,7 @@ msgstr ""
 #. :sl4:
 #: ../yaboot-installer.templates:6001
 msgid "Looking for root partition"
-msgstr "Traženje korijenske particije"
+msgstr "Pretraživanje korijenske particije"
 
 #. Type: error
 #. Description
@@ -282,8 +282,8 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"To ćete morati učiniti samo jednom.  Nakon toga upišite naredbu 'boot' ili "
-"ponovo pokrenite sustav kako bi došli do svog svježe instaliranog sustava."
+"To ćete morati učiniti samo jednom.  Nakon toga upišite naredbu \"boot\" ili "
+"ponovno pokrenite sustav kako bi pokrenuli svoj novo instalirani sustav."
 
 #. Type: note
 #. Description
