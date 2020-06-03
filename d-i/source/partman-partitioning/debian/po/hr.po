@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: partman-partitioning\n"
 "Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
 "POT-Creation-Date: 2012-03-28 22:48+0000\n"
-"PO-Revision-Date: 2020-06-03 20:50+0200\n"
+"PO-Revision-Date: 2020-06-03 21:06+0200\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +38,7 @@ msgstr "Kopiranje particije..."
 #. :sl1:
 #: ../partman-partitioning.templates:3001
 msgid "Computing the new state of the partition table..."
-msgstr "Određivanje novog stanje particijske tablice..."
+msgstr "Određivanje novog stanja particijske tablice..."
 
 #. Type: boolean
 #. Description
@@ -239,7 +239,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:12001
 msgid "The size entered is too small"
-msgstr "Unešena veličina je premala"
+msgstr "Upisana veličina je premala"
 
 #. Type: error
 #. Description
@@ -285,14 +285,14 @@ msgstr "Nevaljana veličina"
 #. :sl1:
 #: ../partman-partitioning.templates:16001
 msgid "Beginning"
-msgstr "Na početku"
+msgstr "na početku"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:16001
 msgid "End"
-msgstr "Na kraju"
+msgstr "na kraju"
 
 #. Type: select
 #. Description
@@ -317,14 +317,14 @@ msgstr ""
 #. :sl1:
 #: ../partman-partitioning.templates:17001
 msgid "Primary"
-msgstr "Primarna"
+msgstr "primarna"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:17001
 msgid "Logical"
-msgstr "Logička"
+msgstr "logička"
 
 #. Type: select
 #. Description
@@ -507,9 +507,9 @@ msgid ""
 msgstr ""
 "Pokušavate postaviti oznaku 'bootable' na logičkoj particiji. Ta oznaka je "
 "općenito korisna samo na primarnim particijama, tako da se ne preporučuje "
-"postavljati je na logičkim particijama. Poznato je da neke inačice BIOSA ne "
-"uspijevaju pokrenuti sustav ako ne postoje primarne particije sa 'bootable' "
-"oznakom."
+"postavljati je na logičkim particijama. Poznato je da određene inačice BIOSA "
+"ne uspijevaju pokrenuti sustav ako ne postoje primarne particije sa "
+"'bootable' oznakom."
 
 #. Type: boolean
 #. Description
