@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2013-04-17 18:08+0200\n"
-"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
+"PO-Revision-Date: 2020-06-03 18:12+0200\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -31,6 +31,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.3\n"
 
 #. Type: boolean
 #. Description
@@ -45,7 +46,8 @@ msgstr "Vrati se natrag u izbornik?"
 #: ../partman-basicmethods.templates:1001
 msgid "No file system is specified for partition #${PARTITION} of ${DEVICE}."
 msgstr ""
-"Nije određen datotečni sustav za particiju #${PARTITION} uređaja ${DEVICE}."
+"Nije određen datotečni sustav za particiju #${PARTITION} na uređaju "
+"${DEVICE}."
 
 #. Type: boolean
 #. Description
@@ -56,7 +58,7 @@ msgid ""
 "this partition, it won't be used at all."
 msgstr ""
 "Ako se ne vratite u izbornik particioniranja i ne odredite datotečni sustav "
-"toj particiji, ona se uopće neće koristiti."
+"za tu particiju, ona neće uopće biti korištena."
 
 #. Type: text
 #. Description
